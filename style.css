@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f4f0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+#app {
+  width: 1120px;
+  margin: 88px auto 0;
+}
+
+h1 {
+  color: #1b1b1b;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+h2 + p {
+  margin-bottom: 64px;
+}
+
+main > h3 {
+  color: #e1624f;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+p {
+  color: #333333;
+}
+
+main img {
+  width: 100%;
+  border-radius: 28px;
+}
+
+figcaption {
+  font-style: italic;
+  color: #333333;
+  text-align: center;
+  margin-top: 24px;
+}
+
+hr {
+  border: 1px solid #d9d9d9;
+  margin: 40px 0;
+}
+
+.attraction img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.attraction h3 {
+  font-size: 28px;
+  color: #1b1b1b;
+  margin: 20px 0 4px 0;
+}
+
+.attraction p {
+  margin-bottom: 32px;
+}
+
+ul li::marker {
+  color: #333333;
+}
+
+li {
+  font-weight: 700;
+  margin-left: 24px;
+}
+
+.attraction + .attraction {
+  margin-top: 48px;
+}
+
+.blue {
+  color: #0C51A7;
+}
+
+.purple {
+  color: #591b98;
+}
+
+.pink {
+  color: #e5245e;
+}
+
+.orange {
+  color: #e95e10;
+}
+
+p:last-child {
+  text-align: center;
+}
+
+footer {
+  color: #333333;
+  font-family: Alice;
+  font-size: 16px;
+  line-height: 150%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 48px;
+}
